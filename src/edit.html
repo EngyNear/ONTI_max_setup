@@ -22,9 +22,6 @@
               <li class="nav-item">
                 <a class="nav-link" onclick="codeOss()">Code-oss IDE</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" onclick="pioneerBricks()">Pioneer Bricks</a>
-              </li>
 
               <li class="nav-item">
                 <a
@@ -92,27 +89,6 @@
                   Butterfly Web Terminal - браузерная версия стандартного Linux терминала.
                 </h5>
                 <a class="btn btn-outline-success" href="http://{{ host }}:8090" style="left: 50%; position: sticky;">Открыть</a>
-              </form>
-            </div>
-            `;
-            $("#maincont").append(l);
-          }
-          function pioneerBricks(){
-            $(".myform").remove();
-            var l=`
-            <div class="myform">
-              <br>
-              <form>
-                <h1 style="text-align: center;">Pioneer Bricks</h1>
-                <h5 style="word-wrap: break-word; padding-left: 30px; padding-right: 30px">
-                  Pioneer Bricks – визуальная, блочная, 
-                  браузерная среда разработки, обладающая всем функционалом современных 
-                  IDE (создать файл, открыть файл, сохранить файл, консоль отладки). Данная 
-                  среда прекрасно подойдет для детей, только начавших изучать 
-                  программирование. Основной плюс данной среды – это простота 
-                  использования, а так же моментальное исполнение программы. 
-                </h5>
-                <a class="btn btn-outline-success" href="http://{{ host }}:2020" style="left: 50%; position: sticky;">Открыть</a>
               </form>
             </div>
             `;

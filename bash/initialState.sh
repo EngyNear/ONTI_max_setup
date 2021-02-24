@@ -1,3 +1,4 @@
+BASEDIR=$(dirname "$0")
+
 sudo systemctl enable pioneer-bricks-wlan
-sh ./enableNetworkManagerHotspot.sh
-python3 ../src/default_webmenu.py
+python3 $BASEDIR/../src/default_webmenu.py
