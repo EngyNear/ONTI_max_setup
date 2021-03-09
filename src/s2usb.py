@@ -6,6 +6,5 @@ with open(path, 'r', encoding="utf-8") as file:
     lines = file.readlines()
 lines[3] = change
 
-
 with open(path, 'w', encoding="utf-8") as file:
     file.writelines(lines)

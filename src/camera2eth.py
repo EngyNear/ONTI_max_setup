@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 path = "/home/ubuntu/geoscan_ws/src/gs_camera/launch/camera.launch"
-change = '        <param name="interface" value="eth0"/>'
+change = '        <param name="interface" value="eth0"/>\n'
 
 with open(path, 'r', encoding="utf-8") as file:
     lines = file.readlines()
