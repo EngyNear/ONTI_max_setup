@@ -7,4 +7,3 @@ python3 $BASEDIR/../src/camera2eth.py
 sudo nmcli con down "OlyNTI"
 
 sh $BASEDIR/start_eth_services.sh
-python3 $BASEDIR/../src/restart_usb.py

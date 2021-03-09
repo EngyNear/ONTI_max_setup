@@ -8,4 +8,4 @@ sudo nmcli device wifi connect "OlyNTI" password "mospolytech1" name "ONTI"
 sudo nmcli con up "OlyNTI"
 
 sh $BASEDIR/start_wlan_services.sh
-python3 $BASEDIR/../src/restart_s.py
+python3 $BASEDIR/../../geoscan_ws/src/gs_core/src/restart.py
