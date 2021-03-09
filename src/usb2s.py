@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 path = "/home/ubuntu/geoscan_ws/src/gs_core/launch/pioneer.launch"
-change = '        <param name="port" value="/dev/ttyS0"/>'
+change = '        <param name="port" value="/dev/ttyS0"/>\n'
 
 with open(path, 'r', encoding="utf-8") as file:
     lines = file.readlines()
