@@ -1,6 +1,6 @@
 BASEDIR=$(dirname "$0")
 
-sh $BASEDIR/enableNetworkManager.sh
+# sh $BASEDIR/enableNetworkManager.sh
 python3 $BASEDIR/../src/usb2s.py
 python3 $BASEDIR/../src/camera2wlan.py
 
